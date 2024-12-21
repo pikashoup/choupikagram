@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Choupikagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Accueil"><i class="fa-solid fa-house"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="assets/img/illustrations/index.png" alt="Illustration" id="illustration">
+
+        <h1>Inscription - Connexion</h1>
+        <div class="form-container">
+            <div class="form">
+                <h2>Inscription</h2>
+                <form action="index.html" method="post">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input type="text" name="username" id="username" placeholder="ex : Malefyx-255">
+
+                    <label for="email">Adresse e-mail</label>
+                    <input type="email" name="email" id="email" placeholder="ex : malefyx@exemple.fr">
+
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" placeholder="ex : MALEFYXmotdepasse1234!">
+
+                    <label for="password_confirm">Confirmation du mot de passe</label>
+                    <input type="password" name="password_confirm" id="password_confirm"
+                        placeholder="ex : MALEFYXmotdepasse1234!">
+
+                    <input type="submit" name="register" value="Inscription">
+                </form>
+            </div>
+
+            <div class="form">
+                <h2>Connexion</h2>
+                <form action="index.html" method="post">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input type="text" name="username" id="username" placeholder="ex : Malefyx-255">
+
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" placeholder="ex : MALEFYXmotdepasse1234!">
+
+                    <input type="submit" name="login" value="Connexion">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Choupikagram</p>
+        <ul>
+            <li><a href="cgu.html" title="Conditions Générales d'Utilisation">CGU</a></li>
+            <li><a href="politique.html" title="Politique de confidentialité">Politique de confidentialité</a></li>
+            <li><a href="plan.html" title="Plan du site">Plan du site</a></li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/d9f8c02c2d.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
