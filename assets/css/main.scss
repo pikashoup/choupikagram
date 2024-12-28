@@ -1,0 +1,68 @@
+$color-extra-dark:#2C2A4A;
+$color-dark: #4F518C;
+$color-light: #CED3F0;
+$color-success: #2A9D8F;
+
+body {
+    background-image: url("../img/background_pattern.png");
+    color: #383E42;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: $color-dark;
+}
+
+footer {
+    background-color: $color-extra-dark;
+
+    ul>li {
+        display: inline;
+        margin-right: 2%;
+    }
+
+    p {
+        color: $color-light;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 0;
+    }
+}
+
+nav,
+footer {
+    padding: 0.7rem;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+
+        li>a {
+            color: $color-light;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+    }
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#illustration {
+    height: 350px;
+}
+
+@import "_form";

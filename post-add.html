@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Choupikagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Accueil"><i class="fa-solid fa-house"></i></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="assets/img/illustrations/index.png" alt="Illustration" id="illustration">
+
+        <h1>Ajouter un post</h1>
+
+        <div class="form-container">
+            <div class="form">
+                <form action="post-add.html" method="POST">
+                    <label for="title">Titre</label>
+                    <input type="text" name="title" id="title" placeholder="ex: Live de samedi dernier">
+                    <label for="content">Contenu</label>
+                    <textarea name="content" id="content" placeholder="ex: Trop bien" rows="10"></textarea>
+                    <input type="submit" value="Poster">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Choupikagram</p>
+        <ul>
+            <li><a href="cgu.html" title="Conditions Générales d'Utilisation">CGU</a></li>
+            <li><a href="politique.html" title="Politique de confidentialité">Politique de confidentialité</a></li>
+            <li><a href="plan.html" title="Plan du site">Plan du site</a></li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/d9f8c02c2d.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
