@@ -21,6 +21,7 @@ nav {
 
 footer {
     background-color: $color-extra-dark;
+    margin-top: 0.7rem;
 
     ul>li {
         display: inline;
@@ -66,3 +67,4 @@ footer {
 }
 
 @import "_form";
+@import "_postsList"
